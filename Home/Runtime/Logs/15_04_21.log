@@ -1,0 +1,1604 @@
+[ 2015-04-21T10:31:53+08:00 ] 0.0.0.0 /think_book/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type F:\WWW\think_book\Home\Lib\Action\LoginAction.class.php ç¬¬ 5 è¡Œ.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\WWW\think_book\Home\Runtime\Cache\f0141568474d93d9ce184ea430bd6b17.php ç¬¬ 47 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:31:54+08:00 ] 0.0.0.0 /think_book/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:32:06+08:00 ] ERR: (ThinkException) ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+[ 2015-04-21T10:33:03+08:00 ] ERR: (ThinkException) ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+[ 2015-04-21T10:33:30+08:00 ] ERR: (ThinkException) ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+[ 2015-04-21T10:34:18+08:00 ] 0.0.0.0 /think_book/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.034002s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id F:\WWW\think_book\Home\Runtime\Cache\7e4848229090366086cc7eeb3bfc0798.php ç¬¬ 38 è¡Œ.
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\7e4848229090366086cc7eeb3bfc0798.php ç¬¬ 58 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:34:21+08:00 ] 0.0.0.0 /think_book/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type F:\WWW\think_book\Home\Lib\Action\LoginAction.class.php ç¬¬ 5 è¡Œ.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\WWW\think_book\Home\Runtime\Cache\f0141568474d93d9ce184ea430bd6b17.php ç¬¬ 47 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:34:21+08:00 ] 0.0.0.0 /think_book/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:34:32+08:00 ] 0.0.0.0 /think_book/index.php/Login/doLogin?type=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.028001s ]
+SQL: SELECT `id` FROM `user` WHERE ( `username` = 'yanxiong' ) AND ( `password` = 'e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:34:34+08:00 ] 0.0.0.0 /think_book/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\7e4848229090366086cc7eeb3bfc0798.php ç¬¬ 58 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-21T10:34:38+08:00 ] 0.0.0.0 /think_book/index.php/Info/order
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.032002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.012001s ]
+SQL: SELECT * FROM `order` WHERE ( `uid` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.004000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\0f79a86dcb55868decf0c9d8793cccc3.php ç¬¬ 57 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:34:45+08:00 ] 0.0.0.0 /think_book/index.php/Category/category?type=1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of CategoryAction::show() should be compatible with that of Action::show() F:\WWW\think_book\Home\Lib\Action\CategoryAction.class.php ç¬¬ 32 è¡Œ.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book` WHERE ( `type` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `book` WHERE ( `type` = 1 ) LIMIT 0,8   [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\1c9d580361edd9da8d83d0da135bee28.php ç¬¬ 87 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:34:47+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: cart F:\WWW\think_book\Home\Lib\Action\CartAction.class.php ç¬¬ 16 è¡Œ.
+
+[ 2015-04-21T10:34:50+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:34:53+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 2 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:34:54+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:34:54+08:00 ] 0.0.0.0 /think_book/index.php/Cart/cart
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:34:57+08:00 ] 0.0.0.0 /think_book/index.php/Cart/subOrder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003001s ]
+SQL: INSERT INTO `order` (`serial`,`uid`,`totalNum`,`totalPrice`,`time`,`state`) VALUES ('2015042149985510','1',4,177.4,1429583697,0) [ RunTime:0.033002s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (1,2,'2015042149985510') [ RunTime:0.000000s ]
+SQL: UPDATE `book` SET `stock`=stock-2 WHERE ( `bno` = 1 ) [ RunTime:0.046003s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (2,2,'2015042149985510') [ RunTime:0.000000s ]
+SQL: UPDATE `book` SET `stock`=stock-2 WHERE ( `bno` = 2 ) [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:35:00+08:00 ] 0.0.0.0 /think_book/index.php/Info/order
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `order` WHERE ( `uid` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.012001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\0f79a86dcb55868decf0c9d8793cccc3.php ç¬¬ 57 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:35:06+08:00 ] 0.0.0.0 /think_book/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\7e4848229090366086cc7eeb3bfc0798.php ç¬¬ 58 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-21T10:35:10+08:00 ] 0.0.0.0 /think_book/index.php/Category/category?type=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of CategoryAction::show() should be compatible with that of Action::show() F:\WWW\think_book\Home\Lib\Action\CategoryAction.class.php ç¬¬ 32 è¡Œ.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book` WHERE ( `type` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `book` WHERE ( `type` = 2 ) LIMIT 0,8   [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\1c9d580361edd9da8d83d0da135bee28.php ç¬¬ 87 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-21T10:35:13+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=5
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 5 ) LIMIT 1   [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: cart F:\WWW\think_book\Home\Lib\Action\CartAction.class.php ç¬¬ 16 è¡Œ.
+
+[ 2015-04-21T10:35:16+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=6
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 6 ) LIMIT 1   [ RunTime:0.001001s ]
+
+[ 2015-04-21T10:35:18+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=7
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 7 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:35:19+08:00 ] 0.0.0.0 /think_book/index.php/Cart/cart
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:35:22+08:00 ] 0.0.0.0 /think_book/index.php/Cart/subOrder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: INSERT INTO `order` (`serial`,`uid`,`totalNum`,`totalPrice`,`time`,`state`) VALUES ('2015042197535349','1',3,81.8,1429583722,0) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (5,1,'2015042197535349') [ RunTime:0.000000s ]
+SQL: UPDATE `book` SET `stock`=stock-1 WHERE ( `bno` = 5 ) [ RunTime:0.000000s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (6,1,'2015042197535349') [ RunTime:0.001001s ]
+SQL: UPDATE `book` SET `stock`=stock-1 WHERE ( `bno` = 6 ) [ RunTime:0.000000s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (7,1,'2015042197535349') [ RunTime:0.001000s ]
+SQL: UPDATE `book` SET `stock`=stock-1 WHERE ( `bno` = 7 ) [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:35:24+08:00 ] 0.0.0.0 /think_book/index.php/Info/order
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `order` WHERE ( `uid` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\0f79a86dcb55868decf0c9d8793cccc3.php ç¬¬ 57 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:35:27+08:00 ] 0.0.0.0 /think_book/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\7e4848229090366086cc7eeb3bfc0798.php ç¬¬ 58 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:35:36+08:00 ] 0.0.0.0 /think_book/index.php/Category/category?type=4
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of CategoryAction::show() should be compatible with that of Action::show() F:\WWW\think_book\Home\Lib\Action\CategoryAction.class.php ç¬¬ 32 è¡Œ.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.004001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book` WHERE ( `type` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `book` WHERE ( `type` = 4 ) LIMIT 0,8   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\1c9d580361edd9da8d83d0da135bee28.php ç¬¬ 87 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-21T10:35:41+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=13
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 13 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cart F:\WWW\think_book\Home\Lib\Action\CartAction.class.php ç¬¬ 16 è¡Œ.
+
+[ 2015-04-21T10:35:43+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=14
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 14 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:35:49+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=15
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 15 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:35:51+08:00 ] 0.0.0.0 /think_book/index.php/Cart/cart
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-21T10:35:56+08:00 ] 0.0.0.0 /think_book/index.php/Cart/subOrder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: INSERT INTO `order` (`serial`,`uid`,`totalNum`,`totalPrice`,`time`,`state`) VALUES ('2015042199564810','1',3,128.2,1429583756,0) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (13,1,'2015042199564810') [ RunTime:0.001000s ]
+SQL: UPDATE `book` SET `stock`=stock-1 WHERE ( `bno` = 13 ) [ RunTime:0.000000s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (14,1,'2015042199564810') [ RunTime:0.001001s ]
+SQL: UPDATE `book` SET `stock`=stock-1 WHERE ( `bno` = 14 ) [ RunTime:0.000000s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (15,1,'2015042199564810') [ RunTime:0.001000s ]
+SQL: UPDATE `book` SET `stock`=stock-1 WHERE ( `bno` = 15 ) [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:35:58+08:00 ] 0.0.0.0 /think_book/index.php/Info/order
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.011001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `order` WHERE ( `uid` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\0f79a86dcb55868decf0c9d8793cccc3.php ç¬¬ 57 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:36:02+08:00 ] 0.0.0.0 /think_book/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\7e4848229090366086cc7eeb3bfc0798.php ç¬¬ 58 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:36:10+08:00 ] 0.0.0.0 /think_book/index.php/Category/category?type=1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of CategoryAction::show() should be compatible with that of Action::show() F:\WWW\think_book\Home\Lib\Action\CategoryAction.class.php ç¬¬ 32 è¡Œ.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book` WHERE ( `type` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `book` WHERE ( `type` = 1 ) LIMIT 0,8   [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\1c9d580361edd9da8d83d0da135bee28.php ç¬¬ 87 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-21T10:36:13+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=50
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 50 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cart F:\WWW\think_book\Home\Lib\Action\CartAction.class.php ç¬¬ 16 è¡Œ.
+
+[ 2015-04-21T10:36:16+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=50
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 50 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:36:18+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=48
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 48 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:36:21+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=49
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 49 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:36:23+08:00 ] 0.0.0.0 /think_book/index.php/Cart/cart
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:36:38+08:00 ] 0.0.0.0 /think_book/index.php/Cart/subOrder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.002000s ]
+SQL: INSERT INTO `order` (`serial`,`uid`,`totalNum`,`totalPrice`,`time`,`state`) VALUES ('2015042154485210','1',4,293.5,1429583798,0) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.004000s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (50,2,'2015042154485210') [ RunTime:0.001000s ]
+SQL: UPDATE `book` SET `stock`=stock-2 WHERE ( `bno` = 50 ) [ RunTime:0.000000s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (48,1,'2015042154485210') [ RunTime:0.001000s ]
+SQL: UPDATE `book` SET `stock`=stock-1 WHERE ( `bno` = 48 ) [ RunTime:0.000000s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (49,1,'2015042154485210') [ RunTime:0.001000s ]
+SQL: UPDATE `book` SET `stock`=stock-1 WHERE ( `bno` = 49 ) [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:36:40+08:00 ] 0.0.0.0 /think_book/index.php/Info/order
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `order` WHERE ( `uid` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003001s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\0f79a86dcb55868decf0c9d8793cccc3.php ç¬¬ 57 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-21T10:36:45+08:00 ] 0.0.0.0 /think_book/index.php/Info/order
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `order` WHERE ( `uid` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\0f79a86dcb55868decf0c9d8793cccc3.php ç¬¬ 57 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-21T10:37:00+08:00 ] 0.0.0.0 /think_book/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\7e4848229090366086cc7eeb3bfc0798.php ç¬¬ 58 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:37:06+08:00 ] 0.0.0.0 /think_book/index.php/Category/show?id=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of CategoryAction::show() should be compatible with that of Action::show() F:\WWW\think_book\Home\Lib\Action\CategoryAction.class.php ç¬¬ 32 è¡Œ.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\a922e71da519cd676852871a100d6228.php ç¬¬ 71 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:37:08+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 2 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cart F:\WWW\think_book\Home\Lib\Action\CartAction.class.php ç¬¬ 16 è¡Œ.
+
+[ 2015-04-21T10:37:14+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:37:15+08:00 ] 0.0.0.0 /think_book/index.php/Cart/cart
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:37:17+08:00 ] 0.0.0.0 /think_book/index.php/Cart/subOrder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: INSERT INTO `order` (`serial`,`uid`,`totalNum`,`totalPrice`,`time`,`state`) VALUES ('2015042110010151','1',2,110.4,1429583837,0) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (2,2,'2015042110010151') [ RunTime:0.000000s ]
+SQL: UPDATE `book` SET `stock`=stock-2 WHERE ( `bno` = 2 ) [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:37:20+08:00 ] 0.0.0.0 /think_book/index.php/Info/order
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `order` WHERE ( `uid` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\0f79a86dcb55868decf0c9d8793cccc3.php ç¬¬ 57 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:37:22+08:00 ] 0.0.0.0 /think_book/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.001001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\7e4848229090366086cc7eeb3bfc0798.php ç¬¬ 58 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:37:24+08:00 ] 0.0.0.0 /think_book/index.php/Category/show?id=1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of CategoryAction::show() should be compatible with that of Action::show() F:\WWW\think_book\Home\Lib\Action\CategoryAction.class.php ç¬¬ 32 è¡Œ.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\a922e71da519cd676852871a100d6228.php ç¬¬ 71 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:37:27+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cart F:\WWW\think_book\Home\Lib\Action\CartAction.class.php ç¬¬ 16 è¡Œ.
+
+[ 2015-04-21T10:37:28+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:37:29+08:00 ] 0.0.0.0 /think_book/index.php/Cart/cart
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:37:39+08:00 ] 0.0.0.0 /think_book/index.php/Cart/subOrder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.002000s ]
+SQL: INSERT INTO `order` (`serial`,`uid`,`totalNum`,`totalPrice`,`time`,`state`) VALUES ('2015042151981015','1',2,67,1429583859,0) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.002000s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (1,2,'2015042151981015') [ RunTime:0.000000s ]
+SQL: UPDATE `book` SET `stock`=stock-2 WHERE ( `bno` = 1 ) [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:37:41+08:00 ] 0.0.0.0 /think_book/index.php/Info/order
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `order` WHERE ( `uid` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\0f79a86dcb55868decf0c9d8793cccc3.php ç¬¬ 57 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:38:07+08:00 ] 0.0.0.0 /think_book/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\7e4848229090366086cc7eeb3bfc0798.php ç¬¬ 58 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:38:10+08:00 ] 0.0.0.0 /think_book/index.php/Category/show?id=3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of CategoryAction::show() should be compatible with that of Action::show() F:\WWW\think_book\Home\Lib\Action\CategoryAction.class.php ç¬¬ 32 è¡Œ.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.002001s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\a922e71da519cd676852871a100d6228.php ç¬¬ 71 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:48:00+08:00 ] 0.0.0.0 /think_book/index.php/Category/category?type=4
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of CategoryAction::show() should be compatible with that of Action::show() F:\WWW\think_book\Home\Lib\Action\CategoryAction.class.php ç¬¬ 32 è¡Œ.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book` WHERE ( `type` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `book` WHERE ( `type` = 4 ) LIMIT 0,8   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\1c9d580361edd9da8d83d0da135bee28.php ç¬¬ 87 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:48:02+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=13
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 13 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cart F:\WWW\think_book\Home\Lib\Action\CartAction.class.php ç¬¬ 16 è¡Œ.
+
+[ 2015-04-21T10:48:04+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=15
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 15 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:48:05+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=16
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 16 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:48:05+08:00 ] 0.0.0.0 /think_book/index.php/Cart/cart
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:48:09+08:00 ] 0.0.0.0 /think_book/index.php/Cart/subOrder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: INSERT INTO `order` (`serial`,`uid`,`totalNum`,`totalPrice`,`time`,`state`) VALUES ('2015042157981004','1',3,180.3,1429584489,0) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.005000s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (13,1,'2015042157981004') [ RunTime:0.000000s ]
+SQL: UPDATE `book` SET `stock`=stock-1 WHERE ( `bno` = 13 ) [ RunTime:0.000000s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (15,1,'2015042157981004') [ RunTime:0.001000s ]
+SQL: UPDATE `book` SET `stock`=stock-1 WHERE ( `bno` = 15 ) [ RunTime:0.000000s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (16,1,'2015042157981004') [ RunTime:0.000000s ]
+SQL: UPDATE `book` SET `stock`=stock-1 WHERE ( `bno` = 16 ) [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:48:11+08:00 ] 0.0.0.0 /think_book/index.php/Info/order
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `order` WHERE ( `uid` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\0f79a86dcb55868decf0c9d8793cccc3.php ç¬¬ 57 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:48:15+08:00 ] 0.0.0.0 /think_book/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book`  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\7e4848229090366086cc7eeb3bfc0798.php ç¬¬ 58 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.037003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:48:18+08:00 ] 0.0.0.0 /think_book/index.php/Category/show?id=4
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of CategoryAction::show() should be compatible with that of Action::show() F:\WWW\think_book\Home\Lib\Action\CategoryAction.class.php ç¬¬ 32 è¡Œ.
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\a922e71da519cd676852871a100d6228.php ç¬¬ 71 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:48:21+08:00 ] 0.0.0.0 /think_book/index.php/Cart/doCart?id=4
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `book` WHERE ( `bno` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cart F:\WWW\think_book\Home\Lib\Action\CartAction.class.php ç¬¬ 16 è¡Œ.
+
+[ 2015-04-21T10:48:23+08:00 ] 0.0.0.0 /think_book/index.php/Cart/cart
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-21T10:48:44+08:00 ] 0.0.0.0 /think_book/index.php/Cart/cart
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:48:54+08:00 ] 0.0.0.0 /think_book/index.php/Cart/cart
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-21T10:48:56+08:00 ] 0.0.0.0 /think_book/index.php/Cart/subOrder
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.002000s ]
+SQL: INSERT INTO `order` (`serial`,`uid`,`totalNum`,`totalPrice`,`time`,`state`) VALUES ('2015042156100525','1',2,83.4,1429584536,0) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `book` [ RunTime:0.003001s ]
+SQL: INSERT INTO `info` (`iBno`,`num`,`iSerial`) VALUES (4,2,'2015042156100525') [ RunTime:0.001000s ]
+SQL: UPDATE `book` SET `stock`=stock-2 WHERE ( `bno` = 4 ) [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-21T10:48:58+08:00 ] 0.0.0.0 /think_book/index.php/Info/order
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `order` WHERE ( `uid` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `username` FROM `user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: totalNum F:\WWW\think_book\Home\Runtime\Cache\0f79a86dcb55868decf0c9d8793cccc3.php ç¬¬ 57 è¡Œ.
+INFO: Run ParseTemplate Behavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+

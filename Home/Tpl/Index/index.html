@@ -1,0 +1,72 @@
+<include file="Public:header"/>
+<header>
+<body>
+	<div class="mainContainer sixteen container">
+            <!--Header Block-->
+            <div class="header-wrapper">
+              <header class="container">
+			  
+				<!--包含顶部文件-->
+                <include file="Public:head"/>
+				
+                
+                <nav id="smoothmenu1" class="ddsmoothmenu mainMenu">
+                  <ul id="nav">
+                   <li class="active"><a href="__APP__" title="Home">首页</a></li>
+                    <li class=""><a href="__APP__/Category/category?type=1">计算机</a> </li>
+					<li class=""><a href="__APP__/Category/category?type=2">文学</a></li>
+					<li class=""><a href="__APP__/Category/category?type=3">哲学</a></li>
+					<li class=""><a href="__APP__/Category/category?type=4">经济学</a></li>
+					<li class=""><a href="__APP__/Category/category?type=5">管理学</a></li>
+                  </ul>
+                </nav>
+				
+              </header>
+            </div>
+            <!--Banner Block-->
+            <section class="banner-wrapper">
+              <div class="banner-block container">
+                <div class="flexslider">
+                  <ul class="slides">
+                    <li><img title="Banner" alt="Banner" src="__ROOT__/Uploads/images/index/552b4237N1616107e.jpg" /></li>
+                    <li><img title="Banner" alt="Banner" src="__ROOT__/Uploads/images/index/552c6831Nf0133e17.jpg" /></li>
+                    <li><img title="Banner" alt="Banner" src="__ROOT__/Uploads/images/index/5527b0bcNb31f2c6a.jpg" /></li>
+                    <li><img title="Banner" alt="Banner" src="__ROOT__/Uploads/images/index/552b9fdcN81d8ee1a.jpg" /></li>
+                  </ul>
+                </div>
+                <ul class="banner-add">
+                  <li class="add1"><a href="#" title=""><img src="__ROOT__/Uploads/images/index/552b2e92Nbffd90c7.jpg" /></a></li>
+                  <li class="add2"><a href="#" title=""><img src="__ROOT__/Uploads/images/index/552b3058N82e5e381.jpg" /></a></li>
+                </ul>
+              </div>
+            </section>
+            <!--Content Block-->
+            <section class="content-wrapper">
+              <div class="content-container container">
+                <div class="heading-block">
+                 <!--  <h1>图书城</h1> -->
+                </div>
+                <div class="feature-block">
+				<hr/>
+                  <ul id="mix" class="product-grid">
+				  <foreach name='list' item='vo'>
+                    <li>
+                      <div class="pro-img"><a href='__APP__/Category/show?id=<{$vo.bno}>'><img title="<{$vo.title}>" src="__ROOT__/Uploads/images/<{$vo.pic}>" /></a></div>
+                      <div class="pro-content1"><p><{$vo.title|subtxt=10}></p></div>
+					  <div class="pro-price1">￥<{$vo.price}></div>
+                    </li> 
+					
+					</foreach>
+                    
+                    
+                  </ul>
+                </div>
+                <hr/>
+              </div>
+            </section>
+    </div> 
+	<!-- 包含footer.html -->
+<include file="Public:footer"/>
+
+</body>
+</html>

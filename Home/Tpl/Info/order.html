@@ -1,0 +1,99 @@
+<include file="Public:header"/>
+<load href="__PUBLIC__/Home/css/table.css"/>
+</head>
+<body>
+	<div class="mainContainer sixteen container">
+            <!--Header Block-->
+            <div class="header-wrapper">
+              <header class="container">
+                <div class="head-right">
+                      <ul class="top-nav">
+							<if condition="!$_SESSION['id'] ">
+                            <li class=""><a href="__APP__/Login/login">欢迎你，请登录</a></li>
+							
+							<else/>
+							 <li class=""><a href="#">欢迎你，<{$_SESSION['username']}></a></li>
+							 <li class=""><a href="__APP__/Login/doLogout">退出</a></li>
+							 </if>
+							
+							
+                            <li class="my-wishlist"><a href="__APP__/Login/reg" title="My Wishlist">免费注册</a></li>
+                           <!--  <li class="contact-us"><a href="contact_us.html" >登录</a></li>
+                            <li class="checkout"><a href="404_error.html">Checkout</a></li>
+                            <li class="log-in"><a href="account_login.html" title="Log In">Log In</a></li> -->
+                      </ul>
+                    <ul class="currencyBox">
+                        <li id="header_currancy" class="currency"> <a class="mainCurrency" href="#">　我的账户　</a>
+                          <div id="currancyBox" class="currency_detial"> <a href="__APP__/Info/info">个人信息</a> <a href="#"></a> <a href="__APP__/Info/order">我的订单</a> </div>
+                        </li>
+                    </ul>
+                  <section class="header-bottom">
+                    <div class="cart-block">
+					<ul>
+						<li><{$_SESSION['totalNum']}></li>
+						<li>
+						<a href="__APP__/Cart/cart" title="Cart"><img title="Item" alt="Item" src="__PUBLIC__/Home/images/item_icon.png" />
+						<li>购物车</li>
+						</a>
+						</li>
+						
+					</ul>
+				
+				</div>
+                    <div class="search-block" style="border:0px;">
+                    </div>
+                  </section>
+                </div>
+                <h1 class="logo"><a href="__APP__/Index/index" title="Logo">
+                  <img title="Logo" alt="Logo" src="__PUBLIC__/Home/images/logo.png" />
+                  </a></h1>
+              </header>
+            </div>
+            <!--Content Block-->
+			<hr/>
+			<table class="bordered">
+				<thead>
+
+				<tr>
+					<th>ID</th>        
+					<th>订单编号</th>
+					<th>商品数量</th>
+					<th>订单金额</th>
+					<th>下单时间</th>
+					<th>订单状态</th>
+					<th>操作</th>
+					
+				</tr>
+				</thead>
+				<volist name="list" id="vo">
+				<tr>
+					<td><{$i}></td>
+					<td><{$vo.serial}></td>        
+					<td><{$vo.totalNum}></td>        
+					<td>￥<{$vo.totalPrice}></td>
+					<td><{$vo.time|date="Y-m-d H:i:s",###}></td>
+					<if condition="$vo.state eq 0">
+						<td>未处理</td>
+					<elseif condition="$vo.state eq 1"/>
+						<td>已取消</td>
+					<elseif condition="$vo.state eq 2"/>
+						<td>已处理</td>
+					</if>
+					<td>
+					<if condition="$vo.state eq 0">
+					<a href="__URL__/cancel?serial=<{$vo.serial}>">取消订单</a>
+					<else/>
+					<a class="cancel">取消订单</a>
+					</if>
+					</td>
+				</tr>    
+				</volist>
+				<tr><td colspan="7"><{$page}></td></tr>
+			</table>
+			<hr/>
+</div>
+	<!-- 包含footer.html -->
+<include file="Public:footer"/>
+
+</body>
+</html>

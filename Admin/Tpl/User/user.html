@@ -1,0 +1,61 @@
+<include file="Public:header"/>
+</head>
+<body>
+	<include file="Public:head"/>
+<div class="container clearfix">
+	<include file="Public:left"/>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+           <div class="crumb-list"><i class="icon-font"></i><a href="__APP__/Index/index">首页</a><span class="crumb-step">&gt;</span><a class="crumb-name" href="__APP__/User/user">会员管理</a><span class="crumb-step">&gt;</span><span>会员列表</span></div>
+        </div>
+        <div class="search-wrap">
+            <div class="search-content">
+                <form action="__APP__/User/change" method="post">
+                    <table class="search-tab">
+                        <tr>
+                            <th width="70">关键字:</th>
+                            <td><input class="common-text" placeholder="关键字" name="keywords" id="" type="text"/></td>
+                            <td><input class="btn btn-primary btn2" name="sub" value="查询" type="submit"/></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <form name="myform" id="myform" action="" method="post">
+               
+                <div class="result-content">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th>ID</th>
+                            <th>用户名</th>
+                            <th>性别</th>
+                            <th>联系电话</th>
+                            <th>邮箱</th>
+                        </tr>
+						<volist name='list' id='vo'>
+                        <tr>
+                            <td><{$i}></td>
+                            <td><{$vo.username}></td>
+							<if condition="$vo.gender eq 0">
+                            <td>男</td>
+							<else/>
+							<td>女</td>
+							</if>
+                            <td><{$vo.tel}></td>
+                            <td><{$vo.email}></td>
+                        </tr>
+						</volist>
+                      
+                    </table>
+                    <div class="list-page"><{$page}></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

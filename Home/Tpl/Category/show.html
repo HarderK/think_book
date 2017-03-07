@@ -1,0 +1,152 @@
+<include file="Public:header"/>
+<script>
+	$(function(){
+		$('button[class="form-button"]').click(function(){
+			
+			var va=<{$list.bno}>;
+			//alert(va);
+			$.get('__APP__/Cart/doCart?id='+va,function(data){
+				$('#num').html(data);	
+			});
+		});
+	});
+</script>
+<header>
+<body>
+	<div class="mainContainer sixteen container">
+            <!--Header Block-->
+            <div class="header-wrapper">
+              <header class="container">
+			  
+			  
+              <!--包含顶部文件-->
+                <include file="Public:head"/>
+				
+				
+                <nav id="smoothmenu1" class="ddsmoothmenu mainMenu">
+                  <ul id="nav">	
+                    <li class=""><a href="__APP__" title="Home">首页</a></li>
+                    <li class="" id="id1"><a href="__APP__/Category/category?type=1">计算机</a> </li>
+					<li class="" id="id2"><a href="__APP__/Category/category?type=2">文学</a></li>
+					<li class="" id="id3"><a href="__APP__/Category/category?type=3">哲学</a></li>
+					<li class="" id="id4"><a href="__APP__/Category/category?type=4">经济学</a></li>
+					<li class="" id="id5"><a href="__APP__/Category/category?type=5">管理学</a></li>
+                  </ul>
+                </nav>
+              </header>
+            </div>
+           <hr/>
+            <!--Content Block-->
+<section class="content-wrapper">
+	<div class="content-container container">
+		
+		<div class="main">
+			
+			<div class="product-info-box">
+				<div class="product-essential">
+					<div class="product-img-box">
+						<p class="product-image-zoom">
+							<img src="__ROOT__/Uploads/images/show/<{$list.pic}>"  alt="Image" title="Image" />
+						</p>
+					</div>
+					<div class="product-shop">
+						<h3 class="product-name"><{$list.title}></h3>
+						<div class="price-box">
+                		    <span class="price"><{$list.author}></span>
+							<span class="availability">著</span>
+				        </div>
+						<div class="price-box">
+                		    <span class="price">￥<{$list.price}></span>
+							<span class="availability">库存量：<{$list.stock}></span>
+				        </div>
+						<div class="model-block">
+							<p>
+								<span>促销信息: </span>满100减30
+							</p>
+						</div>
+						<div class="first-review">
+							累计评价：1890
+						</div>
+						<div class="color-size-block">
+							<div class="label-row">
+								<label><em>*</em> 配送至</label>
+							
+							</div>
+							<div class="select-row">
+								<select><option>-- 请选择 --</option>
+									<option>洪山区</option>
+									<option>武昌区</option>
+									<option>江夏区</option>
+									<option>青山区</option>
+								</select>
+							</div>
+							
+						</div>
+						<div class="model-block">
+							<p>
+								<span>服务: </span>由　网上商城　发货并提供售后服务。 23：00之前下单预计明天送达
+							</p>
+						</div>
+						<div class="add-to-cart-box">
+							
+							<button class="form-button"><span>加入购物车</span></button>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+       
+			<section  class="product-collateral">
+            	<script type="text/javascript">
+					$(function(){
+						var tabContainers=$('section.product-collateral > div.commonContent');
+						tabContainers.hide().filter(':first').show();
+						$('section.product-collateral ul.tab-block a').click(function(){
+							tabContainers.hide();
+							tabContainers.filter(this.hash).show();
+							$('section.product-collateral ul.tab-block a').removeClass('active');
+							$(this).addClass('active');
+							return false;
+							}).filter(':first').click();
+						});
+					</script>
+				<ul class="tab-block">
+					<li><a href="#pro-detail" title="Description" class="active">商品介绍</a></li>
+					<li><a href="#pro-review" title="Reviews">商品评价</a></li>
+					<li><a href="#pro-tags" title="Product Tags">购买记录</a></li>
+				</ul>
+				<div id="pro-detail" class="pro-detail commonContent">
+					<ol>
+						<li>书名：　<{$list.title}></li>
+						<li>ISBN:　<{$list.isbn}></li>
+						<li>作者:　<{$list.author}></li>
+						<li>出版社：　<{$list.publisher}></li>
+						<li>出版日期：　<{$list.pubDate}></li>
+					</ol>
+					
+				</div>
+                
+                <div id="pro-review" class="pro-detail commonContent">
+					<p>
+						<br/><br/><br/><br/><br/><br/>
+					</p>
+				</div>
+                
+                <div id="pro-tags" class="pro-detail commonContent">
+					<p>
+						<br/><br/><br/><br/><br/><br/>
+					</p>
+				</div>
+      
+			</section>
+
+		</div>
+	</div>
+</section>
+    </div> 
+	<hr/>
+	<!-- 包含footer.html -->
+<include file="Public:footer"/>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<div class="head-right">
+                      <ul class="top-nav">
+							<if condition="!$_SESSION['id'] ">
+                            <li class=""><a href="__APP__/Login/login">欢迎你，请登录</a></li>
+							
+							<else/>
+							 <li class=""><a href="#">欢迎你，<{$_SESSION['username']}></a></li>
+							 <li class=""><a href="__APP__/Login/doLogout">退出</a></li>
+							 </if>
+							
+							
+                            <li class="my-wishlist"><a href="__APP__/Login/reg" title="My Wishlist">免费注册</a></li>
+                      </ul>
+                    <ul class="currencyBox">
+                        <li id="header_currancy" class="currency"> <a class="mainCurrency" href="#">　我的账户　</a>
+                          <div id="currancyBox" class="currency_detial"> 
+						  <a href="__APP__/Info/info">个人信息</a> <a href="#"></a>
+						  <a href="__APP__/Info/order">我的订单</a> 
+						  </div>
+                        </li>
+                    </ul>
+            <section class="header-bottom">
+                    <div class="cart-block">
+					<ul>
+						<li id='num'><{$_SESSION['totalNum']}></li>
+						<li>
+						<a href="__APP__/Cart/cart"><img title="Item" alt="Item" src="__PUBLIC__/Home/images/item_icon.png" />
+						<li>购物车</li>
+						</a>
+						</li>
+						
+					</ul>
+				</div>
+                    <div class="search-block">
+					<form action="__APP__/Index/search" method="post">
+                      <input type="text" placeholder="搜索..." name="keywords" />
+                      <input type="submit" value="搜索" />
+					 </form>
+                    </div>
+                  </section>
+                </div>
+				
+				<h1 class="logo"><a href="__APP__/Index/index" title="Logo">
+                  <img title="首页" alt="首页" src="__PUBLIC__/Home/images/logo.png" />
+                  </a></h1>

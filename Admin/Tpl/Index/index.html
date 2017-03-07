@@ -1,0 +1,113 @@
+<include file="Public:header"/>
+	<script>
+		$(function(){
+			$('#selectAll').click(function(){
+				if($("#selectAll").attr("checked")){
+					$(":checkbox").attr("checked",true);
+				}else{
+					$(":checkbox").attr("checked",false);
+				}
+			});
+			$('#batchDel').click(function(){
+				$('#myform').submit();
+			});
+			
+		});
+	</script>
+</head>
+<body>
+	<include file="Public:head"/>
+<div class="container clearfix">
+   <include file="Public:left"/>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font">&#xe06b;</i><span>欢迎使用网上书店后台系统</span></div>
+        </div>
+        <div class="search-wrap">
+            <div class="search-content">
+                <form action="__APP__/Index/changeType" method="post">
+                    <table class="search-tab">
+                        <tr>
+                            <th width="120">选择分类:</th>
+                            <td>
+                                <select name="type">
+                                    <option value="0">全部</option>
+                                    <option value="1">计算机</option>
+									<option value="2">文学</option>
+									<option value="3">哲学</option>
+									<option value="4">经济</option>
+									<option value="5">管理</option>
+                                </select>
+                            </td>
+                            <th width="70">关键字:</th>
+                            <td><input class="common-text" placeholder="关键字" name="keywords" id="" type="text"/></td>
+                            <td><input class="btn btn-primary btn2" name="sub" value="查询" type="submit"/></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <form name="myform" id="myform" action="__APP__/Index/del" method="post">
+                <div class="result-title">
+                    <div class="result-list">
+                        <a href="__APP__/Index/insert"><i class="icon-font"></i>新增图书</a>
+                        <button id="batchDel"><i class="icon-font"></i>批量删除</button>
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th class="tc" width="5%"><input class="allChoose" id="selectAll" type="checkbox"></th>
+                            <th>ID</th>
+                            <th>书名</th>
+                            <th>ISBN</th>
+                            <th>作者</th>
+                            <th>出版社</th>
+                            <th>出版日期</th>
+                            <th>价格</th>
+                            <th>类型</th>
+                            <th>库存</th>
+                            <th>操作</th>
+                        </tr>
+						<volist name='list' id='vo'>
+                        <tr>
+                            <td class="tc"><input name="id[]" value="<{$vo.bno}>" type="checkbox"></td>
+                            <td><{$i}></td>
+                            <td title="<{$vo.title}>"><{$vo.title|subtxt=10}></td>
+                            <td><{$vo.isbn}></td>
+                            <td title="<{$vo.author}>"><{$vo.author|subtxt=10}></td>
+                            <td><{$vo.publisher}></td>
+                            <td><{$vo.pubDate}></td>
+                            <td>￥<{$vo.price}></td>
+							<if condition='$vo.type eq 1'>
+                            <td>计算机</td>
+							<elseif condition='$vo.type eq 2'/>
+							<td>文学</td>
+							<elseif condition='$vo.type eq 3'/>
+							<td>哲学</td>
+							<elseif condition='$vo.type eq 4'/>
+							<td>经济学</td>
+							<elseif condition='$vo.type eq 5'/>
+							<td>管理学</td>
+							</if>
+							<td><{$vo.stock}></td>
+                            <td>
+                                <a class="link-update" href="__APP__/Index/myUpdate?id=<{$vo.bno}>">修改</a>
+                                <a class="link-del" href="__APP__/Index/del1?id=<{$vo.bno}>">删除</a>
+                            </td>
+                        </tr>
+						</volist>
+                      
+                    </table>
+                    <div class="list-page"><{$page}></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

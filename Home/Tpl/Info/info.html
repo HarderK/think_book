@@ -1,0 +1,136 @@
+<include file="Public:header"/>
+<header>
+<body>
+	<div class="mainContainer sixteen container">
+            <!--Header Block-->
+            <div class="header-wrapper">
+              <header class="container">
+                <div class="head-right">
+                      <ul class="top-nav">
+							<if condition="!$_SESSION['id'] ">
+                            <li class=""><a href="__APP__/Login/login">欢迎你，请登录</a></li>
+							
+							<else/>
+							 <li class=""><a href="#">欢迎你，<{$_SESSION['username']}></a></li>
+							 <li class=""><a href="__APP__/Login/doLogout">退出</a></li>
+							 </if>
+							
+							
+                            <li class="my-wishlist"><a href="__APP__/Login/reg" title="My Wishlist">免费注册</a></li>
+                           <!--  <li class="contact-us"><a href="contact_us.html" >登录</a></li>
+                            <li class="checkout"><a href="404_error.html">Checkout</a></li>
+                            <li class="log-in"><a href="account_login.html" title="Log In">Log In</a></li> -->
+                      </ul>
+                    <ul class="currencyBox">
+                        <li id="header_currancy" class="currency"> <a class="mainCurrency" href="#">　我的账户　</a>
+                          <div id="currancyBox" class="currency_detial"> <a href="__APP__/Info/info">个人信息</a>  <a href="__APP__/Info/order">我的订单</a> </div>
+                        </li>
+                    </ul>
+                  <section class="header-bottom">
+                    <div class="cart-block">
+					<ul>
+						<li>(2)</li>
+						<li><a href="cart.html" title="Cart"><img title="Item" alt="Item" src="__PUBLIC__/Home/images/item_icon.png" /></a></li>
+						<li>Item</li>
+					</ul>
+					<div id="minicart" class="remain_cart" style="display: none;">
+						 <p class="empty">You have 2 items in your shopping cart.</p>
+						 <ol>
+						 	<li>
+								<div class="img-block"><img src="__PUBLIC__/Home/images/small_img.png" title="" alt="" /></div>
+								<div class="detail-block">
+									<h4><a href="#" title="Htc Mobile 1120">Htc Mobile 1120</a></h4>
+									<p>
+										<strong>1</strong> x $900.00
+									</p>
+									<a href="#" title="Details">Details</a>
+								</div>
+								<div class="edit-delete-block">
+									<a href="#" title="Edit"><img src="__PUBLIC__/Home/images/edit_icon.png" alt="Edit" title="Edit" /></a>
+									<a href="#" title="Remove"><img src="__PUBLIC__/Home/images/delete_item_btn.png" alt="Remove" title="Remove" /></a>
+								</div>
+							</li>
+							<li>
+								<div class="img-block"><img src="__PUBLIC__/Home/images/small_img.png" title="" alt="" /></div>
+								<div class="detail-block">
+									<h4><a href="#" title="Htc Mobile 1120">Htc Mobile 1120</a></h4>
+									<p>
+										<strong>1</strong> x $900.00
+									</p>
+									<a href="#" title="Details">Details</a>
+								</div>
+								<div class="edit-delete-block">
+									<a href="#" title="Edit"><img src="__PUBLIC__/Home/images/edit_icon.png" alt="Edit" title="Edit" /></a>
+									<a href="#" title="Remove"><img src="__PUBLIC__/Home/images/delete_item_btn.png" alt="Remove" title="Remove" /></a>
+								</div>
+							</li>
+							<li>
+								<div class="total-block">Total:<span>$1,900.00</span></div>
+								<a href="cart.html" title="Checkout" class="colors-btn">Checkout</a>
+								<div class="clear"></div>
+							</li>
+						 </ol>
+					</div>
+				</div>
+                    <div class="search-block" style="border:0px;">
+                    </div>
+                  </section>
+                </div>
+                <h1 class="logo"><a href="__APP__/Index/index" title="Logo">
+                  <img title="Logo" alt="Logo" src="__PUBLIC__/Home/images/logo.png" />
+                  </a></h1>
+              </header>
+            </div>
+            <!--Content Block-->
+<section class="content-wrapper">
+	<div class="content-container container">
+		<div class="col-left">
+			<div class="block compare-block">
+				<div class="block-title">我的账户</div>
+				<ul>
+					<li>您的账户余额为：￥97</li>
+				</ul>
+			</div>
+			<div class="block community-block">
+				<div class="block-title">调查问卷</div>
+				<ul>
+					<li class="question-row">您对我们的服务是否满意？</li>
+					<li><input type="radio"><a href="#" >十分满意</a></li>
+					<li><input type="radio"><a href="#" >满意</a></li>
+					<li><input type="radio"><a href="#" >不满意</a></li>
+					<li><input type="radio"><a href="#" >非常不满意</a></li>
+					<li class="vote-row"><button title="Vote">提交</button></li>
+				</ul>
+			</div>
+		</div>
+		<div  class="col-main">
+			<h1 class="page-title">个人账户</h1>
+			<div class="contact-form-container">
+				<div  class="form-title">账户信息</div>
+				<ul class="form-fields">
+					<li class="left">
+						
+						<label>邮箱<em>*</em></label>
+						<label><{$list.email}><label/>
+					</li>
+					<li class="left">
+						<label>电话<em>*</em></label>
+						<label><{$list.tel}></label>
+					</li>
+					
+					
+					
+				</ul>
+				
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		
+	</div>
+</section>
+</div>
+	<!-- 包含footer.html -->
+<include file="Public:footer"/>
+
+</body>
+</html>

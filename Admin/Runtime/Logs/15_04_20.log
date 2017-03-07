@@ -1,0 +1,1 @@
+[ 2015-04-20T15:30:31+08:00 ] ERR: (ThinkException) XML标签语法错误 : condition="($_SESSION['authority'] eq 1) and ($vo.authority eq 1)" and ($vo.ano neq $_SESSION['ano'])

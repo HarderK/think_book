@@ -1,0 +1,117 @@
+<include file="Public:header"/>
+<load href="__PUBLIC__/Home/css/table.css"/>
+<header>
+<body>
+	<div class="mainContainer sixteen container">
+            <!--Header Block-->
+            <div class="header-wrapper">
+              <header class="container">
+                <div class="head-right">
+                      <ul class="top-nav">
+							<if condition="!$_SESSION['id'] ">
+                            <li class=""><a href="__APP__/Login/login">欢迎你，请登录</a></li>
+							
+							<else/>
+							 <li class=""><a href="#">欢迎你，<{$_SESSION['username']}></a></li>
+							 <li class=""><a href="__APP__/Login/doLogout">退出</a></li>
+							 </if>
+							
+							
+                            <li class="my-wishlist"><a href="__APP__/Login/reg" title="My Wishlist">免费注册</a></li>
+                           <!--  <li class="contact-us"><a href="contact_us.html" >登录</a></li>
+                            <li class="checkout"><a href="404_error.html">Checkout</a></li>
+                            <li class="log-in"><a href="account_login.html" title="Log In">Log In</a></li> -->
+                      </ul>
+                    <ul class="currencyBox">
+                        <li id="header_currancy" class="currency"> <a class="mainCurrency" href="#">　我的账户　</a>
+                          <div id="currancyBox" class="currency_detial"> 
+						  <a href="__APP__/Info/info">个人信息</a> <a href="#"></a>
+						  <a href="__APP__/Info/order">我的订单</a> 
+						  </div>
+                        </li>
+                    </ul>
+                  <section class="header-bottom">
+                    <div class="cart-block">
+					<ul>
+						<li><{$_SESSION['totalNum']}></li>
+						<li>
+						<a href="__APP__/Cart/cart" title="Cart"><img title="Item" alt="Item" src="__PUBLIC__/Home/images/item_icon.png" />
+						<li>购物车</li>
+						</a>
+						</li>
+						
+					</ul>
+				</div>
+                    <div class="search-block" style="border:0px;">
+                      
+                    </div>
+                  </section>
+                </div>
+                <h1 class="logo"><a href="__APP__/Index/index" title="Logo">
+                  <img title="Logo" alt="Logo" src="__PUBLIC__/Home/images/logo.png" />
+                  </a></h1>
+                <nav id="smoothmenu1" class="ddsmoothmenu mainMenu">
+                  <ul id="nav">
+                   <li class=""><a href="__APP__" title="Home">首页</a></li>
+                    <li class=""><a href="__APP__/Category/category?type=1">计算机</a> </li>
+					<li class=""><a href="__APP__/Category/category?type=2">文学</a></li>
+					<li class=""><a href="__APP__/Category/category?type=3">哲学</a></li>
+					<li class=""><a href="__APP__/Category/category?type=4">经济学</a></li>
+					<li class=""><a href="__APP__/Category/category?type=5">管理学</a></li>
+                  </ul>
+                </nav>
+              </header>
+            </div>
+           <hr/>
+            <!--Content Block-->
+            <section class="content-wrapper">
+	<div class="content-container container">
+		<div class="col-1-layout">
+			<table class="bordered">
+				<thead>
+
+				<tr >
+					<th class="center">ID</th>        
+					<th>商品图片</th>
+					<th>商品名称</th>
+					<th>单价</th>
+					<th>商品数量</th>
+					<th>商品总价</th>
+					<th>删除</th>
+				</tr>
+				</thead>
+				<volist name="list" id="vo">
+				<tr>
+					<td><{$i}></td>
+					<td><img title="<{$vo.title}>" src="__ROOT__/Uploads/images/thumb/<{$vo.pic}>" /></td>        
+					<td><{$vo.title}></td>
+					<td>￥<{$vo.price}></td>
+					<td><a href="__URL__/minusNum?id=<{$vo.id}>"><img style="padding-bottom:4px;" src="__PUBLIC__/Home/images/coleps_icon.png"/></a>　<{$vo.num}>　
+					<a href="__URL__/addNum?id=<{$vo.id}>"><img src="__PUBLIC__/Home/images/expand_icon.png"/></a></td>
+					<td>￥<{$vo.total}></td>
+					<td><a href="__URL__/clear?id=<{$vo.id}>"><img style="padding-bottom:4px;" src="__PUBLIC__/Home/images/delete_item_btn.png"/></a></td>
+				</tr>        
+				</volist>
+			</table>
+		
+			<div class="update-shopping-cart"><a href="__URL__/clear"><button class="colors-btn">清空购物车</button></a></div>
+		
+			<div class="shopping-cart-totals">
+				
+				<div class="grand-row"><div class="left">订单金额：</div><div class="right">￥<{$_SESSION['sum']}></div></div>
+				<ul class="checkout-types">
+					<li><a href="__URL__/subOrder"><button class="colors-btn" title="提交">提交订单</button></a></li>
+					
+				</ul>
+			</div>	
+		</div>
+		
+	</div>
+</section>
+    </div> 
+	<hr/>
+	<!-- 包含footer.html -->
+<include file="Public:footer"/>
+
+</body>
+</html>

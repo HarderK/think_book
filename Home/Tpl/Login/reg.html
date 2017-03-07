@@ -1,0 +1,132 @@
+<include file="Public:header"/>
+<script>
+	$(function(){
+		var error= new Array();
+		$('input[name="username"]').blur(function(){
+		//alert(1);
+			var username=$(this).val();
+			$.get('__URL__/checkName',{'username':username},function(data){
+				if(data=='No'){
+					error['username']=1;
+					$('#spantext').html("该用户名已注册");
+				}else{
+					error['username']=0
+					$('#spantext').html("");
+				}
+			});
+		});
+		//提交表单
+		$('#submit').click(function(){
+			//alert(1);
+			if(error['username']==1){
+				$('#spantext').html("请重新输入用户名");
+				//return false;
+			}else{
+				//alert(11);
+				$('form[name="myForm"]').submit();
+				}
+		});
+	});
+	
+	
+  </script>
+</head>
+<body>
+	<div class="mainContainer sixteen container">
+            <!--Header Block-->
+            <div class="header-wrapper">
+              <header class="container">
+                <h1 class="logo"><a href="__APP__/Index/index" title="Logo">
+                  <img title="Logo" alt="Logo" src="__PUBLIC__/Home/images/logo.png" />
+                  </a></h1>
+              </header>
+            </div>
+            <!--Content Block-->
+           <section class="content-wrapper">
+	<div class="content-container container">
+		<div class="main">
+			<div class="account-login">
+				<div class="col-2 registered-users">
+					<div class="content">
+						<h2>用户注册</h2>
+						<form action="__URL__/doReg" method="post" name="myForm">
+						<ul class="form-list">
+							<li>
+								
+								<div class="input-box">
+								<label class="required">用户名<em>*</em></label>
+									<input type="text"  class="input-text required-entry validate-email" name="username" />
+									　　　<span id="spantext" style="color:red;"></span>
+								</div>
+								<div class="clear"></div>
+							</li>
+							
+							<li>
+								<div class="input-box">
+								<label class="required">密码<em>*</em></label>
+									<input type="password" class="input-text required-entry validate-password" name="password" />
+								</div>
+								<div class="clear"></div>
+							</li>
+							
+							<li>
+								<div class="input-box">
+								<label class="required">确认密码<em>*</em></label>
+									<input type="password" class="input-text required-entry validate-password" name="repassword" />
+								</div>
+								<div class="clear"></div>
+							</li>
+							
+							<li>
+								<div class="input-box">
+								<label >性别：　　男<input type="radio"  value="0" name="gender" />
+									　　女<input type="radio" value="1" name="gender" />
+								</label>
+								</div>
+								<div class="clear"></div>
+							</li>
+							
+							<li>
+								<div class="input-box">
+								<label class="required">手机号码</label>
+									<input type="text" class="input-text required-entry validate-password" name="tel" />
+								</div>
+								<div class="clear"></div>
+							</li>
+							
+							<li>
+								<div class="input-box">
+								<label class="required">邮箱</label>
+									<input type="text" class="input-text required-entry validate-password" name="email" />
+								</div>
+								<div class="clear"></div>
+							</li>
+							
+							<li>
+								<div class="input-box">
+									<label class="required">验证码<em>*</em></label>
+									<input type="text"  class="input-text required-entry validate-email" name="code" />
+									<img src="<{:U('Public/code')}>" class="code" onclick="this.src=this.src+'?'+Math.random()"/>
+								</div>
+								<div class="clear"></div>
+							</li>
+						</ul>
+						<input class='colors-btn' type="submit" id="submit" value="提交"/>
+								<input class="colors-btn"  type="reset" value="重置"/>
+								
+						<form/>
+						<p class="required">* 必须填写</p>
+					</div>
+            	</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		
+	</div>
+</section>
+</div>
+    </div> 
+   <include file="Public:footer"/>
+</body>
+</html>

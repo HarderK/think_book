@@ -1,0 +1,87 @@
+<include file="Public:header"/>
+<script>
+	$(function(){
+		var type=(<{$type}>);
+		if(type==1){
+			$('#id1').attr("class","active");
+		}
+		if(type==2){
+			$('#id2').attr("class","active");
+		}
+		if(type==3){
+			$('#id3').attr("class","active");
+		}
+		if(type==4){
+			$('#id4').attr("class","active");
+		}
+		if(type==5){
+			$('#id5').attr("class","active");
+		}
+		
+		$('button[class="form-button"]').click(function(){
+			
+			var va=$(this).attr('id');
+			//alert(va);
+			$.get('__APP__/Cart/doCart?id='+va,function(data){
+				$('#num').html(data);	
+			});
+		});
+	});
+</script>
+<header>
+<body>
+	<div class="mainContainer sixteen container">
+            <!--Header Block-->
+            <div class="header-wrapper">
+              <header class="container">
+			  
+				<!--包含顶部文件-->
+                <include file="Public:head"/>
+	  
+                <nav id="smoothmenu1" class="ddsmoothmenu mainMenu">
+                  <ul id="nav">	
+                    <li class=""><a href="__APP__" title="Home">首页</a></li>
+                    <li class="" id="id1"><a href="__APP__/Category/category?type=1">计算机</a> </li>
+					<li class="" id="id2"><a href="__APP__/Category/category?type=2">文学</a></li>
+					<li class="" id="id3"><a href="__APP__/Category/category?type=3">哲学</a></li>
+					<li class="" id="id4"><a href="__APP__/Category/category?type=4">经济学</a></li>
+					<li class="" id="id5"><a href="__APP__/Category/category?type=5">管理学</a></li>
+                  </ul>
+                </nav>
+              </header>
+            </div>
+           <hr/>
+            <!--Content Block-->
+<section class="content-wrapper">
+	<div class="content-container container">
+		
+		<div class="col-main">
+		
+			<div class="new-product-block">
+				<ul class="product-grid">
+				<foreach name="list" item="vo">
+				<li style="width:233px;">
+						<div class="pro-img"><img title="<{$vo.title}>" src="__ROOT__/Uploads/images/<{$vo.pic}>" /></div>
+						<div class="pro-content"><p><{$vo.title|subtxt=10}></p></div>
+						<div class="pro-price">￥<{$vo.price}></div>
+						<div class="pro-btn-block">
+							<!-- <a class="add-cart left" id='<{$vo.bno}>' href="">加入购物车</a> -->
+							<button class="form-button" id='<{$vo.bno}>'><span>加入购物车</span></button>
+							<a class="add-cart right quickCart inline" href="__APP__/Category/show?id=<{$vo.bno}>">查看</a>	
+						</div>
+					</li>
+				</foreach>
+				</ul>	
+			</div>
+			<div align="center"><{$page}></div>
+		</div>
+		
+	</div>
+</section>
+    </div> 
+	<hr/>
+	<!-- 包含footer.html -->
+<include file="Public:footer"/>
+
+</body>
+</html>
